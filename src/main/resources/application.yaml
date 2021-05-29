@@ -1,0 +1,20 @@
+## 配置项目虚拟路径
+server:
+  servlet:
+    context-path: /08task_distributedz_sb
+
+## 关于邮件的配置(这里使用QQ邮箱)
+spring:
+  mail:
+    username: 770234358@qq.com
+    ## 这是qq邮箱给的授权码
+    password: evbynbtsftutbeab
+    ## qq就是 smtp.qq.com  163就是 smtp.163.com  新浪就是 smtp.sina.com
+    host: smtp.qq.com
+    ## qq的特殊配置 加密规则:开启加密授权验证
+    properties:
+      ## 这里是一些自定义的特殊配置
+      mail:
+        smtp:
+          ssl:
+            enable: true

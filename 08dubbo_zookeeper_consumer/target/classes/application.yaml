@@ -1,0 +1,11 @@
+## 消费者应用的端口号
+server:
+ port: 8002
+
+## 消费者的服务配置
+# 消费者拿服务的时候 需要告诉注册中心自己是谁(暴露自己的服务名)
+dubbo:
+ application:
+  name: 08dubbo_zookeeper_consumer
+ registry:
+  address: zookeeper://127.0.0.1:2181

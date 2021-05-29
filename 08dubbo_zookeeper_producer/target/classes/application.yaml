@@ -1,0 +1,15 @@
+## 生产者引用使用的端口号
+server:
+  port: 8001
+
+## 生产者服务的配置
+dubbo:
+  application:
+  ## 生产者要告诉ZooKeeper注册中心自己这个服务应用的名字(暴露服务)
+    name: 08dubbo_zookeeper_producer
+  ## 要去哪个注册中心注册的地址
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  ## 注册服务应用里的那些东西 扫描这个包下 带有@Service注解的类
+  scan:
+    base-packages: com.wq.service

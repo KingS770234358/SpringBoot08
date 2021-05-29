@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/08dubbo_zookeeper_consumer/08dubbo_zookeeper_consumer.iml" filepath="$PROJECT_DIR$/08dubbo_zookeeper_consumer/08dubbo_zookeeper_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08dubbo_zookeeper_producer/08dubbo_zookeeper_producer.iml" filepath="$PROJECT_DIR$/08dubbo_zookeeper_producer/08dubbo_zookeeper_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08task_distributedz_sb.iml" filepath="$PROJECT_DIR$/08task_distributedz_sb.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+## ������Ŀ����·��
+server:
+  servlet:
+    context-path: /08task_distributedz_sb
+
+## �����ʼ�������(����ʹ��QQ����)
+spring:
+  mail:
+    username: 770234358@qq.com
+    ## ����qq���������Ȩ��
+    password: evbynbtsftutbeab
+    ## qq���� smtp.qq.com  163���� smtp.163.com  ���˾��� smtp.sina.com
+    host: smtp.qq.com
+    ## qq���������� ���ܹ���:����������Ȩ��֤
+    properties:
+      ## ������һЩ�Զ������������
+      mail:
+        smtp:
+          ssl:
+            enable: true
